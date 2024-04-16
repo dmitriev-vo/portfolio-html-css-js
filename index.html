@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta name="description" content="Дмитриев Владислав">
+  <meta name="keywords" content="html, css, javascript">
+  <meta name="author" content="Дмитриев Владислав">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://code.s3.yandex.net/web-code/normalize.css">
+  <link rel="stylesheet" href="style.css">
+  <title>Портфолио</title>
+</head>
+<body id='page' class="page">
+
+<header class="header centered-block">
+  <h1 class="centered-block">
+    <a class="header__link" href="#page" lang="ru">Дмитриев Владислав</a>
+  </h1>
+</header>
+
+<nav class="menu centered-block page__menu">
+  <a class="menu__link menu__link_activate" href="#beginner">Первые шаги в HTML и CSS</a>
+  <a class="menu__link" href="#frameworks">Библиотеки JavaScript</a>
+  <a class="menu__link" href="#practice">Практика HTML, CSS и JavaScript</a>
+</nav>
+
+<main class="content centered-block">
+  <!-- Первые два блока строкой -->
+  <section id="beginner">
+    <h2 class="content__title">Первые шаги в HTML и CSS</h2>
+    <ul class="flex-row list flex-row_space_bottom">
+      <li class="project project_width_l project_height_l project_name_music_album">
+        <a class="project__overlay" href="">Обложка музыкального альбома</a>
+      </li>
+      <li class="project project_width_l project_height_l project_name_design_principles">
+        <a class="project__overlay" href="">Посадочная страница</a>
+      </li>
+    </ul>
+  </section>
+  <!-- Первые два блока строкой -->
+  <div></div>
+  <!-- Секция с 4 элементами -->
+  <section id="frameworks">
+    <h2 class="content__title">Библиотеки JavaScript</h2>
+    <div class="flex-row flex-row_space_bottom flex-row_reversed">
+      <!-- Секция с 4 элементами -->
+      <div class="flex-column flex-column_reversed">
+        <!-- Секция размером два маленьких блока -->
+        <div class="project project_width_l project_height_s project_name_p5">
+          <video class="project__video" src="https://code.s3.yandex.net/web-code/like.mp4" autoplay muted loop></video>
+        </div>
+        <!-- Секция размером два маленьких блока -->
+
+        <!-- Два маленьких блока -->
+        <ul class="flex-row list project_height_m">
+          <li class="project project_width_m project_height_m project_name_slider">
+            <a class="project__overlay" href="">Слайдер</a>
+          </li>
+          <li class="project project_width_m project_height_m project_name_reactive">
+            <a class="project__overlay" href="">React, Vue, Angular</a>
+          </li>
+        </ul>
+        <!-- Два маленьких блока -->
+      </div>
+      <!-- Секция с 1 большим блоком прокрастинации -->
+      <div class="project project_width_l project_height_xl project_name_procrastinate">
+        <video class="project__video" src="https://code.s3.yandex.net/web-code/procrastinate.mov" autoplay muted loop></video>
+      </div>
+      <!-- Секция с 1 большим блоком прокрастинации -->
+    </div>
+  </section>
+  <!-- Секция с 4 элементами -->
+
+<!-- Нижние 3 блока строкой -->
+<section id="practice">
+  <h2 class="content__title">Практика HTML, CSS и JavaScript</h2>
+  <ul class="flex-row list">
+    <li class="project project_width_m project_height_m project_name_how_to_study">
+      <a class="project__overlay" href="">CSS-анимации</a>
+    </li>
+    <li class="project project_width_m project_height_m project_name_across_russia">
+      <a class="project__overlay" href="">Адаптивная вёрстка</a>
+    </li>
+    <li class="project project_width_m project_height_m project_name_mesto">
+      <a class="project__overlay" href="">Приложение на JavaScript</a>
+    </li>
+  </ul>
+</section>
+<!-- Нижние 3 блока строкой -->
+
+</main>
+
+<footer class="footer centered-block">
+  <div class="footer__logo"></div>
+</footer>
+
+</body>
+</html>

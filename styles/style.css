@@ -152,6 +152,9 @@ a:hover {
   height: 100%;
   object-fit: cover;
 }
+.project_name_procrastinate {
+  background-image: url("/project-procrastinate/images/procrastinate.gif")
+}
 
 .project_name_slider {
   background-image: url("https://code.s3.yandex.net/web-code/slider.gif")
@@ -159,9 +162,6 @@ a:hover {
 
 .project_name_reactive {
   background-image: url("https://code.s3.yandex.net/web-code/reactive.gif")
-}
-
-.project_name_p5 {
 }
 
 .project_name_how_to_study {
@@ -180,8 +180,6 @@ a:hover {
   order: 1;
 }
 
-
-
 .footer__logo {
   height: 25px;
   width: 145px;
@@ -191,8 +189,6 @@ a:hover {
   background-position: center;
   align-self: center;
 }
-
-
 
 img[src='logo.png'] {
   border: 1px solid #0000ff;
